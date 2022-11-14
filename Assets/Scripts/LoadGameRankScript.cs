@@ -8,7 +8,7 @@ using System.IO;
 public class LoadGameRankScript : MonoBehaviour
 {
 
-//Поля для отображения информации об игроке
+    //Поля для отображения информации об игроке
     public Text BestPlayerName;
 
     //Статические переменные для хранения данных о лучших игроках

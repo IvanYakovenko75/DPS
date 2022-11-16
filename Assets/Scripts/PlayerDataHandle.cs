@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerDataHandle : MonoBehaviour
 {
     //Статический класс для сохранения данных текущего игрока;
-    //Одноэлементный шаблон
 
     public static PlayerDataHandle Instance;
 

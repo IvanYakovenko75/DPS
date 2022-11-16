@@ -10,24 +10,16 @@ public class MainManager : MonoBehaviour
     public Brick BrickPrefab;
     public int LineCount = 6;
     public Rigidbody Ball;
-
     public Text ScoreText;
-
-    //Поля для отображения информации об игроке
     public Text CurrentPlayerName;
     public Text BestPlayerNameAndScore;
-
     public GameObject GameOverText;
 
     private bool m_Started = false;
     private int m_Points;
-
     private bool m_GameOver = false;
-
-    //Статические переменные для хранения данных о лучших игроках
     private static int BestScore;
     private static string BestPlayer;
-
 
     private void Awake()
     {
